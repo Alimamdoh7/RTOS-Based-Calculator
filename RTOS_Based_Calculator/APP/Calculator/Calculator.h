@@ -24,10 +24,10 @@ extern TaskHandle_t Task_1_Handle;
 extern TaskHandle_t Task_2_Handle;
 extern QueueHandle_t  Queue1_Handle;
 
-extern sint32 Numbers[Number_Of_Operands];
+extern sint64 Numbers[Number_Of_Operands];
 extern uint8 Operations[Number_Of_Operations];
 extern uint8 Key_Value ;
-extern sint32 result;
+extern sint64 result;
 extern uint8 Division_By_Zero_Flag;
 extern uint8 num_cntr;
 extern uint8 op_cntr;

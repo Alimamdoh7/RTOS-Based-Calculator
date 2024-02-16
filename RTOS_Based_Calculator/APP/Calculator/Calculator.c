@@ -12,10 +12,10 @@ TaskHandle_t   Task_1_Handle = NULL;
 TaskHandle_t   Task_2_Handle = NULL;
 QueueHandle_t  Queue1_Handle = NULL;
 
-sint32 Numbers[Number_Of_Operands]={0};
+sint64 Numbers[Number_Of_Operands]={0};
 uint8 Operations[Number_Of_Operations]={0};
 uint8 Key_Value =0;
-sint32 result=0;
+sint64 result=0;
 uint8 Division_By_Zero_Flag=0;
 uint8 num_cntr=0 , op_cntr=0;
 uint8 i=0 , j=0;
